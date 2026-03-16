@@ -14,5 +14,4 @@ Unlike Forcefields parameters/files that are easily accesible/distributed, files
 
 This repo serves as a database for different solvent files that anyone can use. I will continue to upload files on a regular basis.
 
-
-https://www.virtualchemistry.org/
+* for proper conditions please use https://www.virtualchemistry.org/
