@@ -8,10 +8,16 @@ So, hypothetically, as long as we have pairwise RDFs $g_{vv}(r)$ between all sol
 Unlike Forcefields parameters/files that are easily accesible/distributed, files containing $g_{vv}(r)$ are non-existant, and must be user-crafted for each new molecule. Here, I attempt to combat this issue my creating a repo for $g_{vv}(r)$ files to be used in 3DRISM calculations (see: EPISOL). The files must be calculated with the following specifications:
 
 * If MD is used, proper FF
-* RDF resolution is at 0.001 $\mathring{A}$ or better
+* RDF resolution is at 0.025 $\mathring{A}$ or better
 
 ----------------------------------------------------
 
 This repo serves as a database for different solvent files that anyone can use. I will continue to upload files on a regular basis.
 
 * for proper conditions please use https://www.virtualchemistry.org/
+
+NOTES FOR SUBMISSION
+------------------------------------------
+* the longer the RDF, the better. typical RDFs of length ~2.5 $\mathring{A}$ are insufficient
+* 1DRISM is sufficient for small solvents, i.e. water, ions.
+* if using 1DRISM, compare to known RDFs
